@@ -1,10 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-  <title>Hello Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+        body {
+            /* Latar Belakang Pink Pastel */
+            background-color: #F8C8DC; 
+            /* Warna Teks */
+            color: #4B0082; 
+            /* Font yang Estetis */
+            font-family: 'Playfair Display', serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Menggunakan seluruh tinggi viewport */
+            margin: 0;
+            text-align: center;
+        }
+
+        .container {
+            /* Kontainer untuk memberikan efek card/kotak */
+            background-color: rgba(255, 255, 255, 0.7); /* Putih semi-transparan */
+            padding: 40px 60px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.03); /* Sedikit membesar saat disentuh/hover */
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1.5em;
+            opacity: 0.85;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; text-align: center; margin-top: 100px;">
-  <h1>Hello Arsyy</h1>
-  <p>Selamat Datang.</p>
+<body>
+    <div class="container">
+        <h1>Hello Arsyy ✨</h1>
+        <p>Selamat Datang di Halaman Aestetic.</p>
+    </div>
 </body>
 </html>
